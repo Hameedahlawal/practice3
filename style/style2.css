@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+}
+.nav-bar{
+    display: flex;
+    /* background-color: #fff; */
+    /* margin-top: 1vh; */
+    /* position: fixed; */
+    width: 100%;
+}
+.nav-bar .logo{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 10vh;
+}
+.nav-bar .logo img{
+    border-radius: 100%;
+    padding-bottom: 5px;
+}
+.nav-bar .logo h1{
+    margin-top: 2vh;
+    margin-left: 1vh;
+}
+.nav-bar .nav-menu{
+    margin-top: 5vh;
+    display: flex;
+    list-style: none;
+    margin-left: 30vh;
+    padding-top: 2vh;
+    /* text-align: center; */
+}
+.nav-bar .nav-menu li a{
+    text-decoration: none;
+    padding-right: 15px;
+    color: blue;
+}
+.style{
+    background-image: url(../img/book.jpg);
+    background-color: #000000b2;
+    background-blend-mode: multiply;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.style .sty{
+    text-align: center;
+    padding-top: 10vh;
+    padding-right: 120vh;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.style .lyt{
+    padding-top: 5vh;
+    padding-left: 30vh;  
+    letter-spacing: 2px;
+    color: #fff; 
+}
+.style .tys{
+    padding-left: 30vh;
+    padding-top: 2vh;
+    letter-spacing: 2px;
+}
+.style .let{
+    padding: 10px 10px 10px 10px;
+    letter-spacing: 2px;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 900;
+}
+.navbar{
+    background-color: aqua;
+    height: 18vh;
+}
+.navbar .log{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 10vh;
+    padding-left: 90vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh; 
+}
+.navbar .log img{
+    border-radius: 50%;
+    display: block;
+}
+

@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+}
+.nav-bar{
+    display: flex;
+    background-color: #fff;
+    margin-top: 1vh;
+    position: fixed;
+    width: 100%;
+}
+.nav-bar .logo{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 10vh;
+}
+.nav-bar .logo img{
+    border-radius: 100%;
+    padding-bottom: 5px;
+}
+.nav-bar .nav-menu{
+    margin-top: 2vh;
+    display: flex;
+    list-style: none;
+    margin-left: 120vh;
+    padding-top: 2vh;
+}
+.nav-bar .nav-menu li a{
+    text-decoration: none;
+    padding-right: 15px;
+    color: blue;
+}
+.head{
+    background: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.head .middle{
+    text-align: center;
+    padding-top: 25%;
+    color: #0000ff;
+}
+.head .centre{
+    text-align: center;
+    padding-top: 5vh;
+    /* border-radius: 50%; */
+}
+.head .centre .top1{
+    padding: 10px 10px 10px 10px;
+    background-color: #0000ffbe;
+}
+.head .centre .top2{
+    padding: 10px 10px 10px 10px;
+    background-color: #ffdab9;
+}
+.mid{
+    text-align: center;
+    color: #000;
+    padding-top: 5vh;
+}
+.mid .dim{
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+}
+.mid .imd{
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 7vh;
+}
+.bottom{
+    background-color: rgba(255, 192, 203, 0.904);
+    text-align: center;
+    color: #000;
+}
+.bottom .bot{
+    padding-top: 5vh;
+}
+.bottom .tob{
+    padding-bottom: 10vh;
+}
+.bottom .obt{
+    padding-bottom: 15vh;
+}
+
